@@ -1,6 +1,9 @@
 node_modules/
-.env.local
 .env
+.env.local
+.env.production
+.env.development
+.env.test
 .cache
 dist/
 build/
