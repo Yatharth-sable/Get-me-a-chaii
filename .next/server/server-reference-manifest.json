@@ -1,0 +1,70 @@
+{
+  "node": {
+    "1c16ce241d5bce6a45abfeaf6e121d14e4542560": {
+      "workers": {
+        "app/[username]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAsus%5C%5CDesktop%5C%5CNextJs_CWH%5C%5CNext_projects%5C%5Cchai%5C%5Cactions%5C%5Cuseractions.js%22%2C%5B%22fetchpayments%22%2C%22fetchuser%22%2C%22%24%24ACTION_0%22%2C%22initiate%22%2C%22updateProfile%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[username]/page": "action-browser"
+      }
+    },
+    "1d12e744b4382eb2b88851909fe3cf3f385a9bce": {
+      "workers": {
+        "app/[username]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAsus%5C%5CDesktop%5C%5CNextJs_CWH%5C%5CNext_projects%5C%5Cchai%5C%5Cactions%5C%5Cuseractions.js%22%2C%5B%22fetchpayments%22%2C%22fetchuser%22%2C%22%24%24ACTION_0%22%2C%22initiate%22%2C%22updateProfile%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[username]/page": "action-browser"
+      }
+    },
+    "27c675f70a8ede676a888458e671e49b2d9b2890": {
+      "workers": {
+        "app/[username]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAsus%5C%5CDesktop%5C%5CNextJs_CWH%5C%5CNext_projects%5C%5Cchai%5C%5Cactions%5C%5Cuseractions.js%22%2C%5B%22fetchpayments%22%2C%22fetchuser%22%2C%22%24%24ACTION_0%22%2C%22initiate%22%2C%22updateProfile%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[username]/page": "action-browser"
+      }
+    },
+    "51536ee70e541bcdeb020cfe487af3ee1f11fff7": {
+      "workers": {
+        "app/[username]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAsus%5C%5CDesktop%5C%5CNextJs_CWH%5C%5CNext_projects%5C%5Cchai%5C%5Cactions%5C%5Cuseractions.js%22%2C%5B%22fetchpayments%22%2C%22fetchuser%22%2C%22%24%24ACTION_0%22%2C%22initiate%22%2C%22updateProfile%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[username]/page": "action-browser"
+      }
+    },
+    "588ba029994c1c249cc0e841b7de4bb895ce20ec": {
+      "workers": {
+        "app/[username]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAsus%5C%5CDesktop%5C%5CNextJs_CWH%5C%5CNext_projects%5C%5Cchai%5C%5Cactions%5C%5Cuseractions.js%22%2C%5B%22fetchpayments%22%2C%22fetchuser%22%2C%22%24%24ACTION_0%22%2C%22initiate%22%2C%22updateProfile%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[username]/page": "action-browser"
+      }
+    },
+    "9c99c28724d110e9008ef65d86d797a7792b81b5": {
+      "workers": {
+        "app/[username]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAsus%5C%5CDesktop%5C%5CNextJs_CWH%5C%5CNext_projects%5C%5Cchai%5C%5Cactions%5C%5Cuseractions.js%22%2C%5B%22fetchpayments%22%2C%22fetchuser%22%2C%22%24%24ACTION_0%22%2C%22initiate%22%2C%22updateProfile%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[username]/page": "action-browser"
+      }
+    },
+    "a87c458f752f721af46019faf4c0a5cfb4b77e13": {
+      "workers": {
+        "app/[username]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAsus%5C%5CDesktop%5C%5CNextJs_CWH%5C%5CNext_projects%5C%5Cchai%5C%5Cactions%5C%5Cuseractions.js%22%2C%5B%22fetchpayments%22%2C%22fetchuser%22%2C%22%24%24ACTION_0%22%2C%22initiate%22%2C%22updateProfile%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[username]/page": "action-browser"
+      }
+    },
+    "e2e38398569d3467acc80247be9982e5b1b36eb8": {
+      "workers": {
+        "app/[username]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAsus%5C%5CDesktop%5C%5CNextJs_CWH%5C%5CNext_projects%5C%5Cchai%5C%5Cactions%5C%5Cuseractions.js%22%2C%5B%22fetchpayments%22%2C%22fetchuser%22%2C%22%24%24ACTION_0%22%2C%22initiate%22%2C%22updateProfile%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[username]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "LnPVguNr0dFjde9cs/cJmkRRUJcENPz5xfxQU0NkNGg="
+}
