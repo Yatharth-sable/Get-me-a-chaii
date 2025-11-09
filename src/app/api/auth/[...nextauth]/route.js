@@ -1,40 +1,42 @@
 import NextAuth from "next-auth";
 import GitHubProvider from "next-auth/providers/github";
-import User from "@/models/User"
+import User from "@/models/User";
 import connectDB from "@/app/db/connectDb";
 
-export const authOptions = NextAuth({
+const handler = NextAuth({
   providers: [
     GitHubProvider({
       clientId: process.env.GITHUB_ID,
       clientSecret: process.env.GITHUB_SECRET,
-    })
+    }),
   ],
 
   callbacks: {
-    async signIn({ user, account, profile, email, credentials }) { // this is your chance to Check user data Connect to your database Create or update the user record Allow or deny login 
-      if (account.provider == "github") {
-        await connectDB(); 
-        const currentUser = await User.findOne({email:user.email})
-        if(!currentUser){
-          // create new user
-          const newUser =  new User({
-            email:user.email,
-            username:user.email.split('@')[0],
-          })
-          await newUser.save()
-        }      
-        return true;
+    async signIn({ user, account }) {
+      if (account.provider === "github") {
+        await connectDB();
+        const currentUser = await User.findOne({ email: user.email });
+        if (!currentUser) {
+          const newUser = new User({
+            email: user.email,
+            username: user.email.split("@")[0],
+          });
+          await newUser.save();
+        }
       }
+      return true;
     },
 
-    async session({session,user,token}){
-      connectDB()
-      const dbUser = await User.findOne({email:session.user.email})
-      session.user.name = dbUser.username
-      return session
-    }
+    async session({ session }) {
+      await connectDB();
+      const dbUser = await User.findOne({ email: session.user.email });
+      session.user.name = dbUser?.username || session.user.name;
+      return session;
+    },
   },
+
+  secret: process.env.NEXTAUTH_SECRET, // <-- required
+  debug: true,
 });
 
-export { authOptions as GET, authOptions as POST };
+export { handler as GET, handler as POST };
