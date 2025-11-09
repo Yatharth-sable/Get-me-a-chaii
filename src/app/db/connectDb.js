@@ -2,7 +2,7 @@ import mongoose  from "mongoose";
 
 const connectDB = async() => {
     try{
-        const conn = await mongoose.connect(`mongodb://localhost:27017/chai`,
+        const conn = await mongoose.connect(`mongodb+srv://sableyash10_db_user:h95X3cXhag9QxKUJ@chaicluster.xmja1uv.mongodb.net/chaii`,
             {
                 useNewUrlParser:true,
             }
