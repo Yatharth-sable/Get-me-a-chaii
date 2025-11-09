@@ -630,6 +630,10 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
 .my-14 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
@@ -645,10 +649,6 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 .-ms-1 {
   margin-inline-start: -0.25rem;
@@ -707,9 +707,6 @@ video {
 .aspect-video {
   aspect-ratio: 16 / 9;
 }
-.h-1 {
-  height: 0.25rem;
-}
 .h-2\.5 {
   height: 0.625rem;
 }
@@ -722,23 +719,17 @@ video {
 .h-6 {
   height: 1.5rem;
 }
-.h-\[280px\] {
-  height: 280px;
-}
-.h-\[64vh\] {
-  height: 64vh;
-}
 .h-\[1px\] {
   height: 1px;
 }
-.h-\[70vh\] {
-  height: 70vh;
-}
-.h-full {
-  height: 100%;
+.h-\[280px\] {
+  height: 280px;
 }
 .h-\[50vh\] {
   height: 50vh;
+}
+.h-full {
+  height: 100%;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -813,9 +804,6 @@ video {
 .justify-between {
   justify-content: space-between;
 }
-.justify-around {
-  justify-content: space-around;
-}
 .gap-2 {
   gap: 0.5rem;
 }
@@ -824,9 +812,6 @@ video {
 }
 .gap-4 {
   gap: 1rem;
-}
-.gap-5 {
-  gap: 1.25rem;
 }
 .gap-6 {
   gap: 1.5rem;
@@ -1069,10 +1054,6 @@ video {
 .p-8 {
   padding: 2rem;
 }
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1085,6 +1066,10 @@ video {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1092,10 +1077,6 @@ video {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-}
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 .py-3 {
   padding-top: 0.75rem;
@@ -1112,10 +1093,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 .pb-2 {
   padding-bottom: 0.5rem;
@@ -1137,6 +1114,10 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -1156,10 +1137,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1614,11 +1591,6 @@ body {
   .dark\:focus\:ring-gray-500:focus {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(107 114 128 / var(--tw-ring-opacity, 1));
-  }
-
-  .dark\:focus\:ring-purple-800:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(107 33 168 / var(--tw-ring-opacity, 1));
   }
 }
 

@@ -1,17 +1,19 @@
-import mongoose  from "mongoose";
+import mongoose from "mongoose";
 
-const connectDB = async() => {
-    try{
-        const conn = await mongoose.connect(`mongodb://localhost:27017/chai`,
-            {
-                useNewUrlParser:true,
-            }
-        )
-        // console.log(`MongoDB connected: {conn.connection.host}`);
-    } catch(err){
-        console.log("err.message")
-        process.exit(1);
-    }
-}
+const connectDB = async () => {
+  if (mongoose.connection.readyState >= 1) {
+    // Already connected
+    return;
+  }
+
+  try {
+    await mongoose.connect(process.env.MONGODB_URI, {
+      dbName: "chaii", // optional but good practice
+    });
+    console.log("✅ MongoDB Connected");
+  } catch (err) {
+    console.error("❌ MongoDB connection error:", err.message);
+  }
+};
 
 export default connectDB;
